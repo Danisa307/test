@@ -1,0 +1,13 @@
+CREATE TABLE "ab" (
+    "_airbyte_ab_hashid" VARCHAR,
+    "_airbyte_emitted_at" TIMESTAMP_WITH_TIMEZONE
+);
+
+CREATE TABLE "_airbyte_data" (
+    "id" VARCHAR,
+    "first_name" VARCHAR,
+    "last_name" VARCHAR,
+    "email" VARCHAR,
+    "gender" VARCHAR,
+    "ip_address" VARCHAR
+);
